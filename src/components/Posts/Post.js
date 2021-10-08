@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Comments from '../Comments/Comments';
 import LikeSection from './LikeSection';
 import PostHeader from './PostHeader';
@@ -7,6 +7,7 @@ const Post = props => {
   // 🔥 Make sure the parent of Post is passing the right props!
   const { post, likePost } = props;
 
+  //Presentation component = showing data = theres no logic, it just show stuff
   return (
     <div className='post-border'>
       <PostHeader
